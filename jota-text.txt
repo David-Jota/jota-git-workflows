@@ -1,1 +1,5 @@
-this is the git test edited
+this is the git test
+Juan David Motato Rodriguez
+Programacion de software
+v2.0
+
