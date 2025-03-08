@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #000000;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: rgb(161, 154, 154);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio Profesional</h1>
+        <p>Desarrollador Web | Diseñador | Consultor</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <!-- Sobre mí -->
+        <section id="sobre-mi">
+            <h2 class="section-title">Sobre mí</h2>
+            <p>Hola, soy Juan David Motato Rodriguez, o me puedes decir Jota, soy un profesional apasionado por la tecnología. Me especializo en desarrollo web, diseño y consultoría para crear soluciones digitales impactantes. Mi enfoque es entregar resultados excepcionales y crear experiencias de usuario únicas, tambien tengo planeado en crear paginas Webs para la empresa de mi madre y de esas paginas hacer las ventas de zapatos, pues trabajamos calsado.</p>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="card">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <div class="card-content">
+                    <h3>Proyecto</h3>
+                    <p>Como ves, quiero ser DJ, pero tambien tener mi propio IA(inteligencia artificial) y crear musica con ella.</p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <div class="card-content">
+                    <h3>Proyecto Web</h3>
+                    <p>Quiero hacer paginas Webs para cosas informativas, paginas que las demas personas puedan descargar links apk confiables sin ningun virus, por ejemplo MediaFire.
+                      Tambien quiero hacer una aplicacion para que descarguen los juegos Gratis, osea, Minecraft no es gratis, entonces quiero que los demas al descargar Minecraft, no tengan que pagar nada y tengan la mejor seguridad.
+                    </p>
+                    <a href="#">Ver Proyecto</a>
+                </div>
+            </div>
+
+            <!-- Agrega más proyectos aquí -->
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <h2 class="section-title">Contacto</h2>
+            <p>¿Te gustaría colaborar conmigo? ¡Hablemos! Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="Gmail:juanmtato8969@gmail.com">Migmail.com</a></li>
+                
+                <li><strong>GitHub:</strong> <a href="https://github.com/David-Jota" target="_blank">Ver mi repositorio</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Juan David Motato Rodriguez.</p>
+    </footer>
+
+</body>
+</html>
